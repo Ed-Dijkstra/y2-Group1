@@ -5,12 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Fantasy Forest Environment Free Sample/Scenes/demoScene_free.unity
     guid: 7769f33fb4fa2e5458344a36556ad760
   - enabled: 0
     path: Assets/Scenes/XR Test Scene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Walk test.unity
+    guid: 6d721d50eb530db4dbe5c410b06e3180
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ab85a4963c5d9c543a7ac41aeae53d2a, type: 2}
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: da21dd67d257cf844886aba12f615843, type: 2}
