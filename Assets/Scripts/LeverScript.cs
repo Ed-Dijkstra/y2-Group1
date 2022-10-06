@@ -7,11 +7,13 @@ public class LeverScript : MonoBehaviour
     [SerializeField]
     GameObject door;
     doorScript script;
+    Rigidbody rigid;
 
     // Start is called before the first frame update
     void Start()
     {
         door.TryGetComponent<doorScript>(out script);
+        rigid = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -26,5 +28,6 @@ public class LeverScript : MonoBehaviour
         {
             script.OnSelect();
         }
+        rigid.velocity = Vector3.zero;
     }
 }

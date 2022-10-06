@@ -9,6 +9,7 @@ public class doorScript : MonoBehaviour
     GameObject leftDoor;
     bool opening = false;
     bool hasFired = false;
+    float timer = 2.5f;
 
     // Start is called before the first frame update
     void Start()
@@ -24,22 +25,17 @@ public class doorScript : MonoBehaviour
         {
             if (opening)
             {
-                OpenDoor(leftDoor, "left");
-                OpenDoor(rightDoor, "right");
-                hasFired = true;
+                if (timer > 0f)
+                {
+                    rightDoor.transform.Translate(new Vector3(0.05f, 0, 0));
+                    leftDoor.transform.Translate(new Vector3(-0.05f, 0, 0));
+                    timer -= 0.05f;
+                } else
+                {
+                    hasFired = true;
+                }
             }
         }
-    }
-
-    void OpenDoor(GameObject door, string direction)
-    {
-        // 2.5 == right, -2.5 == left
-        float directionInt = 2.5f;
-        if (direction.Equals("left"))
-        {
-            directionInt *= -1;
-        }
-        door.transform.Translate(new Vector3(directionInt, 0, 0));
     }
 
     public void OnSelect()
