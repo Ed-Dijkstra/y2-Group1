@@ -14,9 +14,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Walk test.unity
     guid: 6d721d50eb530db4dbe5c410b06e3180
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Pickup Test.unity
     guid: d6fc4c1d53d0a16498c3ab234b614bdc
+  - enabled: 1
+    path: Assets/Scenes/Snap Test.unity
+    guid: 9612d343fb2b1724799e0dc3d2efc283
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ab85a4963c5d9c543a7ac41aeae53d2a, type: 2}
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: da21dd67d257cf844886aba12f615843, type: 2}
