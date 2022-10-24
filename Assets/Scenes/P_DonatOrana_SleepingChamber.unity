@@ -1728,7 +1728,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: e84cf8b7048badf4ba87ed50681af23c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4702,6 +4702,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pipe02_MissingPiece
       objectReference: {fileID: 0}
+    - target: {fileID: 1543399631892668138, guid: f4a94a0054b58c044bcc411101f0ccc9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f68c4f363c1d63445815664fceea766e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4a94a0054b58c044bcc411101f0ccc9, type: 3}
 --- !u!4 &543450652863069861
@@ -5109,6 +5113,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4607635657036253845, guid: 49e576bdb8dd11d41b8c88a5a3b7c81a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a051316da32f9e4bbf79cecedbfa48a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49e576bdb8dd11d41b8c88a5a3b7c81a, type: 3}
 --- !u!33 &4812060307474722259
