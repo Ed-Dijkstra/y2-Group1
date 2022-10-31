@@ -39,9 +39,12 @@ public class movementScript : MonoBehaviour
                 // modify the value so you don't go super fast
                 triggerValue *= moveSpeed;
                 var directionVector = new Vector3(triggerValue.x, 0, triggerValue.y);
-                // I make a temporary object to store the camera's rotation in, but I remove the Y component so it doesn't let you fly.
+                // I make a temporary object to store the camera's rotation in, but I remove the Y component so it doesn't let you fly, except if gravity is off.
                 var tempValues = cameraObject.transform.eulerAngles;
-                tempValues.x = 0;
+                if (GameGravityScript.GetGravity())
+                {
+                    tempValues.x = 0;
+                }
                 var tempObj = Instantiate(new GameObject());
                 tempObj.transform.eulerAngles = tempValues;
                 // Moves the object in the direction the joystick is pressed relative to the camera rotation.
