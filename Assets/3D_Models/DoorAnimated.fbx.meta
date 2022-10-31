@@ -5,7 +5,7 @@ ModelImporter:
   internalIDToNameTable:
   - first:
       74: 3890365240307868822
-    second: BottomDoor.003|BottomDoor.003Action
+    second: open
   externalObjects: {}
   materials:
     materialImportMode: 2
