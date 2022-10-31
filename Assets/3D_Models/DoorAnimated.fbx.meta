@@ -6,6 +6,9 @@ ModelImporter:
   - first:
       74: 3890365240307868822
     second: open
+  - first:
+      74: 3890365240307868822
+    second: BottomDoor.003|BottomDoor.003Action
   externalObjects: {}
   materials:
     materialImportMode: 2
