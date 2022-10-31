@@ -1,0 +1,26 @@
+[2022-10-31 14:45:44.199] [pxr_streamer] [info] ***********  Log Begin **********
+[2022-10-31 14:45:44.199] [pxr_streamer] [info] process id= 25464
+[2022-10-31 14:45:44.199] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= No connection could be made because the target machine actively refused it., this = 0x5402d8b0
+[2022-10-31 14:45:44.201] [pxr_streamer] [error] rpc_terminal.h:50 Call: invalid rpc_client_, msg = Hello, this = 0x5402d8b0
+[2022-10-31 14:45:44.201] [pxr_streamer] [error] rpc_terminal.h:50 Call: invalid rpc_client_, msg = QueryRemoteTerminals, this = 0x5402d8b0
+[2022-10-31 14:45:47.231] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= No connection could be made because the target machine actively refused it., this = 0x5402d8b0
+[2022-10-31 14:45:50.252] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= No connection could be made because the target machine actively refused it., this = 0x5402d8b0
+[2022-10-31 14:45:53.292] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= No connection could be made because the target machine actively refused it., this = 0x5402d8b0
+[2022-10-31 14:45:56.310] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= No connection could be made because the target machine actively refused it., this = 0x5402d8b0
+[2022-10-31 14:45:59.343] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= No connection could be made because the target machine actively refused it., this = 0x5402d8b0
+[2022-10-31 14:46:02.366] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= No connection could be made because the target machine actively refused it., this = 0x5402d8b0
+[2022-10-31 14:46:05.420] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= No connection could be made because the target machine actively refused it., this = 0x5402d8b0
+[2022-10-31 14:46:08.457] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= No connection could be made because the target machine actively refused it., this = 0x5402d8b0
+[2022-10-31 14:46:11.500] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= No connection could be made because the target machine actively refused it., this = 0x5402d8b0
+[2022-10-31 14:46:14.544] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= No connection could be made because the target machine actively refused it., this = 0x5402d8b0
+[2022-10-31 14:46:17.579] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= No connection could be made because the target machine actively refused it., this = 0x5402d8b0
+[2022-10-31 14:46:20.621] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= No connection could be made because the target machine actively refused it., this = 0x5402d8b0
+[2022-10-31 14:46:23.642] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= No connection could be made because the target machine actively refused it., this = 0x5402d8b0
+[2022-10-31 14:46:26.677] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= No connection could be made because the target machine actively refused it., this = 0x5402d8b0
+[2022-10-31 14:46:29.718] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= No connection could be made because the target machine actively refused it., this = 0x5402d8b0
+[2022-10-31 14:46:32.761] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= No connection could be made because the target machine actively refused it., this = 0x5402d8b0
+[2022-10-31 14:46:35.783] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= No connection could be made because the target machine actively refused it., this = 0x5402d8b0
+[2022-10-31 14:46:38.830] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= No connection could be made because the target machine actively refused it., this = 0x5402d8b0
+[2022-10-31 14:46:41.873] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= No connection could be made because the target machine actively refused it., this = 0x5402d8b0
+[2022-10-31 14:46:44.920] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= No connection could be made because the target machine actively refused it., this = 0x5402d8b0
+[2022-10-31 14:46:47.966] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= No connection could be made because the target machine actively refused it., this = 0x5402d8b0
