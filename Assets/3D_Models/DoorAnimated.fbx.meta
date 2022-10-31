@@ -1,11 +1,14 @@
 fileFormatVersion: 2
 guid: da68344eb66c438448d9738979799773
 ModelImporter:
-  serializedVersion: 20300
+  serializedVersion: 20200
   internalIDToNameTable:
   - first:
       74: 3890365240307868822
     second: open
+  - first:
+      74: 3890365240307868822
+    second: BottomDoor.003|BottomDoor.003Action
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -99,7 +102,6 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
-  remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
