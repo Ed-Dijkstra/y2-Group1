@@ -1,0 +1,54 @@
+[2022-11-01 20:26:43.387] [pxr_streamer] [info] ***********  Log Begin **********
+[2022-11-01 20:26:43.387] [pxr_streamer] [info] process id= 13224
+[2022-11-01 20:26:43.387] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:26:43.389] [pxr_streamer] [error] rpc_terminal.h:50 Call: invalid rpc_client_, msg = Hello, this = 0x5d65be30
+[2022-11-01 20:26:43.389] [pxr_streamer] [error] rpc_terminal.h:50 Call: invalid rpc_client_, msg = QueryRemoteTerminals, this = 0x5d65be30
+[2022-11-01 20:26:46.438] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:26:49.496] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:26:52.521] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:26:55.565] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:26:58.589] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:27:01.642] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:27:04.685] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:27:07.724] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:27:10.764] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:27:13.804] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:27:16.842] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:27:19.901] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:27:22.939] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:27:25.971] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:27:29.012] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:27:32.061] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:27:35.111] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:27:38.147] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:27:41.205] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:27:44.256] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:27:47.292] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:27:50.339] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:27:53.377] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:27:56.431] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:27:59.485] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:28:02.523] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:28:05.560] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:28:08.600] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:28:11.647] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:28:14.686] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:28:17.735] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:28:20.790] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:28:23.829] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:28:26.876] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:28:29.918] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:28:32.960] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:28:35.992] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:28:39.028] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:28:42.078] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:28:45.129] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:28:48.172] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:28:51.214] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:28:54.257] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:28:57.294] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:29:00.329] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:29:03.378] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:29:06.418] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:29:09.464] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
+[2022-11-01 20:29:12.500] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение., this = 0x5d65be30
