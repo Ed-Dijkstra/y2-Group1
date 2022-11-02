@@ -24,7 +24,7 @@ public class rotateScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         // Only run this (look around) if the grip button is not being pressed.
         if (rightHandedControllers[0].TryGetFeatureValue(CommonUsages.gripButton, out gripValue) && !gripValue)

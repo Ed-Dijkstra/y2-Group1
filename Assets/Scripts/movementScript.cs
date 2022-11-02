@@ -28,7 +28,7 @@ public class movementScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         // Don't run this if the grip button on the left controller is being held down.
         if (leftHandedControllers[0].TryGetFeatureValue(CommonUsages.gripButton, out gripValue) && !gripValue)
