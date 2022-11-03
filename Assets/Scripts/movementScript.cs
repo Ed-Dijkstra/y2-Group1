@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
 
-public class movementScript : MonoBehaviour
+public class MovementScript : MonoBehaviour
 {
     // For storing the controllers and getting input data
     private List<InputDevice> leftHandedControllers = new List<InputDevice>();
@@ -13,6 +13,8 @@ public class movementScript : MonoBehaviour
     [Tooltip("Speed of movement. 1 is really fast.")]
     [SerializeField]
     private float moveSpeed = 0.1f;
+    [SerializeField]
+    private Rigidbody rb;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,20 +39,10 @@ public class movementScript : MonoBehaviour
             if (leftHandedControllers[0].TryGetFeatureValue(CommonUsages.primary2DAxis, out triggerValue) && !triggerValue.Equals(new Vector2(0, 0)))
             {
                 // modify the value so you don't go super fast
-                triggerValue *= moveSpeed;
                 var directionVector = new Vector3(triggerValue.x, 0, triggerValue.y);
-                // I make a temporary object to store the camera's rotation in, but I remove the Y component so it doesn't let you fly, except if gravity is off.
-                var tempValues = cameraObject.transform.eulerAngles;
-                if (GameGravityScript.GetGravity())
-                {
-                    tempValues.x = 0;
-                }
-                var tempObj = Instantiate(new GameObject());
-                tempObj.transform.eulerAngles = tempValues;
                 // Moves the object in the direction the joystick is pressed relative to the camera rotation.
-                transform.Translate(directionVector, tempObj.transform);
-                // removes the temporary object.
-                Destroy(tempObj);
+                var Up = new Vector3(0f, rb.velocity.y, 0f);
+                rb.velocity = (((cameraObject.transform.forward * directionVector.x + cameraObject.transform.right * directionVector.z).normalized * moveSpeed + Up) * Time.fixedDeltaTime);
             }
         }
     }
