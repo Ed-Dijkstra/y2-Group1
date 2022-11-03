@@ -27,7 +27,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Gravity Test.unity
     guid: a7cad891c27359544b52876550cd16b0
   - enabled: 1
-    path: Assets/Scenes/Spaceship.unity
+    path: Assets/Scenes/SampleScene.unity
     guid: d375c5942b8f442b39bf175467a4725d
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ab85a4963c5d9c543a7ac41aeae53d2a, type: 2}
