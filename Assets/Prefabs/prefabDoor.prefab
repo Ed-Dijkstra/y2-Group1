@@ -550,7 +550,7 @@ GameObject:
   - component: {fileID: 6195558667562726541}
   - component: {fileID: 8336743560302278998}
   - component: {fileID: 1093227340461907672}
-  - component: {fileID: 3606281636193818754}
+  - component: {fileID: 4068628699086834997}
   m_Layer: 0
   m_Name: prefabDoor
   m_TagString: Untagged
@@ -607,7 +607,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3, y: 2, z: 7}
   m_Center: {x: 0, y: 1, z: 0}
---- !u!114 &3606281636193818754
+--- !u!114 &4068628699086834997
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

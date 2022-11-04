@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
 
-public class rotateScript : MonoBehaviour
+public class RotateScript : MonoBehaviour
 {
     // List to store the right-hand controller
     private List<InputDevice> rightHandedControllers = new List<InputDevice>();
