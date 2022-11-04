@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class doorScript : MonoBehaviour
+public class DoorScript : MonoBehaviour
 {
     private Animator animator;
+    [SerializeField]
+    private bool locked = false;
 
     // Start is called before the first frame update
     void Start()
@@ -14,13 +16,29 @@ public class doorScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void OnTriggerEnter(Collider other)
     {
-        
+        if (other.CompareTag("Player"))
+        {
+            if (!locked)
+            {
+                animator.SetBool("Opening", true);
+            }
+        }
     }
 
-    public void OnSelect()
+    private void OnTriggerExit(Collider other)
     {
-        animator.Play("Base Layer.Open");
+        if (other.CompareTag("Player"))
+        {
+            animator.SetBool("Opening", false);
+        }
     }
+
+    public void SetLock(bool lockState)
+    {
+        locked = lockState;
+    }
+
+    
 }
