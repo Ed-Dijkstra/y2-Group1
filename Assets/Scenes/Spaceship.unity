@@ -12350,7 +12350,7 @@ GameObject:
   - component: {fileID: 1765626837}
   m_Layer: 0
   m_Name: XR Origin (VR)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20141,6 +20141,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1735712652}
     m_Modifications:
+    - target: {fileID: 3606281636193818754, guid: 778567dfb6200e944bebf7e6a36585d9, type: 3}
+      propertyPath: locked
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6195558667562726541, guid: 778567dfb6200e944bebf7e6a36585d9, type: 3}
       propertyPath: m_RootOrder
       value: 0
