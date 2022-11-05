@@ -6,12 +6,12 @@ public class LeverScript : MonoBehaviour
 {
     [SerializeField]
     GameObject door;
-    doorScript script;
+    DoorScript script;
 
     // Start is called before the first frame update
     void Start()
     {
-        door.TryGetComponent<doorScript>(out script);
+        door.TryGetComponent<DoorScript>(out script);
     }
 
     // Update is called once per frame
@@ -22,6 +22,6 @@ public class LeverScript : MonoBehaviour
 
     public void OnRelease()
     {
-        script.OnSelect();
+
     }
 }
