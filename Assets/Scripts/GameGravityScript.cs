@@ -29,8 +29,7 @@ public class GameGravityScript : MonoBehaviour
         // Enables gravity on the player and in this object's boolean if it is not enalbed already.
         if (!gravity)
         {
-            var rigid = player.GetComponent<Rigidbody>();
-            rigid.useGravity = true;
+            Physics.gravity = new Vector3(0f, 9.81f, 0f);
             gravity = true;
         }
     }
@@ -40,8 +39,7 @@ public class GameGravityScript : MonoBehaviour
         // Disables gravity on the player and in this object's boolean if it is not disabled already.
         if (gravity)
         {
-            var rigid = player.GetComponent<Rigidbody>();
-            rigid.useGravity = false;
+            Physics.gravity = Vector3.zero;
             gravity = false;
         }
     }
