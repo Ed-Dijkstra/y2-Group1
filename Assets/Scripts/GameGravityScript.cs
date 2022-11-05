@@ -24,23 +24,31 @@ public class GameGravityScript : MonoBehaviour
         return gravity;
     }
 
-    public void EnableGravity()
+    private void EnableGravity()
     {
         // Enables gravity on the player and in this object's boolean if it is not enalbed already.
-        if (!gravity)
-        {
-            Physics.gravity = new Vector3(0f, 9.81f, 0f);
+            Physics.gravity = new Vector3(0f, -9.81f, 0f);
             gravity = true;
-        }
     }
 
-    public void DisableGravity()
+    private void DisableGravity()
     {
         // Disables gravity on the player and in this object's boolean if it is not disabled already.
         if (gravity)
         {
             Physics.gravity = Vector3.zero;
             gravity = false;
+        }
+    }
+
+    public void ToggleGravity()
+    {
+        if (gravity){
+            DisableGravity();
+        }
+        else
+        {
+            EnableGravity();
         }
     }
 }

@@ -6,7 +6,7 @@ public class SnapScript : MonoBehaviour
 {
     // This ID will be used to determine what object can snap into this place.
     [SerializeField]
-    private string snapId;
+    private int snapId;
     private Snappable snapObject;
     // Start is called before the first frame update
     void Start()
@@ -30,6 +30,7 @@ public class SnapScript : MonoBehaviour
             transform.GetChild(0).gameObject.SetActive(true);
             // Remove the other object
             Destroy(other.gameObject);
+            PipePuzzle.CompletePipe(snapId);
         }
     }
 }

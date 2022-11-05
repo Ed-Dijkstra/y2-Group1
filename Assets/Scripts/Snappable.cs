@@ -6,7 +6,7 @@ public class Snappable : MonoBehaviour
 {
     // ID used to define what it will snap into. The snap object will have the same ID.
     [SerializeField]
-    private string snapId;
+    private int snapId;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +19,7 @@ public class Snappable : MonoBehaviour
         
     }
 
-    public string GetSnapId()
+    public int GetSnapId()
     {
         return snapId;
     }
