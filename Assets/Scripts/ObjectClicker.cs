@@ -7,6 +7,8 @@ public class ObjectClicker : MonoBehaviour
 {
     public Animator animator;
     private Destroyable destScript;
+    private XRSimpleInteractable xr;
+    public List<DoorScript> doors;
 
     /*private void Update()
     {
@@ -49,6 +51,14 @@ public class ObjectClicker : MonoBehaviour
             if (name == "Leo.007 Heart")
             {
                 animator.SetBool("Right", true);
+                foreach (var door in doors)
+                {
+                    door.SetLock(false);
+                }
+                GameObject.Find("/Starmap Puzzle/Starmap/Wrong Stars").SetActive(false);
+                if (star.TryGetComponent(out xr)){
+                    xr.enabled = false;
+                }
             } else
             {
                 animator.SetTrigger("WrongTrigger");
