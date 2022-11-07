@@ -7,6 +7,10 @@ public class GameGravityScript : MonoBehaviour
     private static bool gravity = true;
     [SerializeField]
     private GameObject player;
+    [SerializeField]
+    private AudioSource gravityengine;
+    public AudioClip engineStart;
+    public AudioClip engineEnd;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +31,7 @@ public class GameGravityScript : MonoBehaviour
     private void EnableGravity()
     {
         // Enables gravity on the player and in this object's boolean if it is not enalbed already.
+
             Physics.gravity = new Vector3(0f, -9.81f, 0f);
             gravity = true;
     }
@@ -45,10 +50,23 @@ public class GameGravityScript : MonoBehaviour
     {
         if (gravity){
             DisableGravity();
+            gravityengine.Stop();
+            gravityengine.PlayOneShot(engineEnd);
         }
         else
         {
-            EnableGravity();
+            if (!gravityengine.isPlaying)
+            {
+                EnableGravity();
+                StartCoroutine(EngineStartup());
+            }
         }
+    }
+
+    IEnumerator EngineStartup()
+    {
+        gravityengine.PlayOneShot(engineStart);
+        yield return new WaitForSeconds(engineStart.length);
+        gravityengine.Play();
     }
 }
