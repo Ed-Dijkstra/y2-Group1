@@ -1,55 +1,38 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GameGravityScript : MonoBehaviour
 {
+    // Static boolean that can be used by other objects to check the current gravity state.
     private static bool gravity = true;
     [SerializeField]
-    private GameObject player;
-    [SerializeField]
+    // Three audio-based components to play sounds when the Gravity Engine is turned on.
     private AudioSource gravityengine;
     public AudioClip engineStart;
     public AudioClip engineEnd;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public static bool GetGravity()
     {
         return gravity;
     }
-
+    // Turns on gravity by rewriting the physics to their original values.
     private void EnableGravity()
     {
-        // Enables gravity on the player and in this object's boolean if it is not enalbed already.
-
-            Physics.gravity = new Vector3(0f, -9.81f, 0f);
-            gravity = true;
+        Physics.gravity = new Vector3(0f, -9.81f, 0f);
+        gravity = true;
     }
-
+    // Turns off gravity by changing the physics' gravity vector to a zero vector.
     private void DisableGravity()
     {
-        // Disables gravity on the player and in this object's boolean if it is not disabled already.
-        if (gravity)
-        {
-            Physics.gravity = Vector3.zero;
-            gravity = false;
-        }
+        Physics.gravity = Vector3.zero;
+        gravity = false;
     }
-
+    // Turns gravity either off or on depending on the current state. Also plays the gravity engine sounds when needed.
     public void ToggleGravity()
     {
         if (gravity){
             DisableGravity();
+            // Gravity engine sound should stop and its turn-off sound should play.
             gravityengine.Stop();
             gravityengine.PlayOneShot(engineEnd);
         }
@@ -63,6 +46,7 @@ public class GameGravityScript : MonoBehaviour
         }
     }
 
+    // Coroutine to make sure the main gravity engine sound plays after its startup sound.
     IEnumerator EngineStartup()
     {
         gravityengine.PlayOneShot(engineStart);

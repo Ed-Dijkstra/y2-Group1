@@ -10,7 +10,6 @@ public class VRDebug : MonoBehaviour
     private bool UIActive;
     private bool trigger;
     private bool button;
-    // Start is called before the first frame update
     void Start()
     {
         var desiredCharacteristicsRight = InputDeviceCharacteristics.HeldInHand | InputDeviceCharacteristics.Right | InputDeviceCharacteristics.Controller;
@@ -18,8 +17,6 @@ public class VRDebug : MonoBehaviour
         UI.SetActive(true);
         UIActive = true;
     }
-
-    // Update is called once per frame
     void Update()
     {
         if (rightHandedControllers[0].TryGetFeatureValue(CommonUsages.triggerButton, out trigger) && trigger)
