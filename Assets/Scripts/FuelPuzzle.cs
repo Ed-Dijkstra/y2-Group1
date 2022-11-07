@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class FuelPuzzle : MonoBehaviour
@@ -12,6 +10,8 @@ public class FuelPuzzle : MonoBehaviour
         {
             Destroy(other.gameObject);
             transform.GetChild(0).gameObject.SetActive(true);
+            GameEndingScript.CompletePuzzles();
+            Debug.Log("Completed All puzzles");
         }
     }
 }

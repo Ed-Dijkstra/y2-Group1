@@ -26,9 +26,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Gravity Test.unity
     guid: a7cad891c27359544b52876550cd16b0
+  - enabled: 0
+    path: Assets/Scene/MainScene.unity
+    guid: 43c20afe17ebb0d459bf49d67d80feee
   - enabled: 1
     path: Assets/Scenes/Spaceship.unity
     guid: d375c5942b8f442b39bf175467a4725d
+  - enabled: 1
+    path: Assets/Scene/ClosingScene.unity
+    guid: d7c4eccfbc1fa0a42b808ffaa6d4fc19
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ab85a4963c5d9c543a7ac41aeae53d2a, type: 2}
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: da21dd67d257cf844886aba12f615843, type: 2}
