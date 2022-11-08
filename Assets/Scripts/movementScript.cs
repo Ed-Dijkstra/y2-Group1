@@ -15,6 +15,8 @@ public class MovementScript : MonoBehaviour
     private float moveSpeed = 11f;
     private CharacterController cc;
     private Vector3 moveVector = Vector3.zero;
+    [SerializeField]
+    private AudioSource footsteps;
     void Start()
     {
         //Stores all left-hand controllers in a list so I can check for their inputs later.
@@ -47,10 +49,21 @@ public class MovementScript : MonoBehaviour
         if (GameGravityScript.GetGravity())
         {
             cc.SimpleMove(moveVector);
+            if (!moveVector.Equals(Vector3.zero) && !footsteps.isPlaying)
+            {
+                footsteps.Play();
+            } else if (moveVector.Equals(Vector3.zero))
+            {
+                footsteps.Stop();
+            }
         } else
         {
             moveVector *= Time.fixedDeltaTime;
             cc.Move(moveVector);
+            if (footsteps.isPlaying)
+            {
+                footsteps.Stop();
+            }
         }
     }
 }
