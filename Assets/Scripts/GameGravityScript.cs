@@ -33,15 +33,15 @@ public class GameGravityScript : MonoBehaviour
         if (gravity){
             DisableGravity();
             // Gravity engine sound should stop and its turn-off sound should play.
-            gravityengine.Stop();
-            gravityengine.PlayOneShot(engineEnd);
+            StartCoroutine(EngineStartup());
         }
         else
         {
             if (!gravityengine.isPlaying)
             {
                 EnableGravity();
-                StartCoroutine(EngineStartup());
+                gravityengine.Stop();
+                gravityengine.PlayOneShot(engineEnd);
             }
         }
     }
