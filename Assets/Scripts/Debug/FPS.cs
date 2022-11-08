@@ -7,15 +7,12 @@ public class FPS : MonoBehaviour
     public int refreshRate = 10;
     int frameCounter;
     float totalTime;
-    // Start is called before the first frame update
     void Start()
     {
         fpsText = GetComponent<Text>();
         frameCounter = 0;
         totalTime = 0;
     }
-
-    // Update is called once per frame
     void Update()
     {
         if (frameCounter == refreshRate)

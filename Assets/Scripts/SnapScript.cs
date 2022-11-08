@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SnapScript : MonoBehaviour
@@ -7,29 +5,18 @@ public class SnapScript : MonoBehaviour
     // This ID will be used to determine what object can snap into this place.
     [SerializeField]
     private int snapId;
+    // Field to store the collider.
     private Snappable snapObject;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     void OnTriggerEnter(Collider other)
     {
         // If the touching object has a Snappable component, and its ID is the same as this one's ID.
-        // TODO: check for rotation so you have to rotate the object correctly before it snaps.
         if (other.gameObject.TryGetComponent<Snappable>(out snapObject) && snapObject.GetSnapId().Equals(snapId))
         {
-            // Activate this objects child (the snapped object
+            // Activate this objects child (the snapped object).
             transform.GetChild(0).gameObject.SetActive(true);
-            // Remove the other object
+            // Remove the other object.
             Destroy(other.gameObject);
+            // Send a message to the PipePuzzle component on the Game object; this will unlock the door once all four pipes have been repaired.
             PipePuzzle.CompletePipe(snapId);
         }
     }
